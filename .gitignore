@@ -1,0 +1,7 @@
+.codex_tmp/
+*.tmp
+*.temp
+*.bak
+data/
+notes/
+scripts/
