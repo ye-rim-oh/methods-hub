@@ -4,5 +4,8 @@
 
 링크:https://ye-rim-oh.github.io/methods-hub/
 
+Site: https://ye-rim-oh.github.io/methods-hub/
+Repository: https://github.com/ye-rim-oh/methods-hub
+
 ## GitHub Pages
 - Build step: none
