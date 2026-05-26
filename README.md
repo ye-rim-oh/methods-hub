@@ -2,8 +2,6 @@
 
 정치학 방법론 문헌을 방법론별로 찾아볼 수 있게 모아놓은 사이트입니다.
 
-링크:https://ye-rim-oh.github.io/methods-hub/
-
 Site: https://ye-rim-oh.github.io/methods-hub/
 Repository: https://github.com/ye-rim-oh/methods-hub
 
