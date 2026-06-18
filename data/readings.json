@@ -7890,12 +7890,10 @@
         "논문작성",
         "재현성"
       ],
-      "note": "출판 가능한 논문을 쓰는 전략과 재현 연구를 연결하는 실용 글쓰기 조언.",
+      "note": "재현 자료, 기존 모형 점검, 새로운 분석 확장을 연결해 수업 프로젝트를 논문으로 발전시키는 절차를 설명.",
       "summary": [
-        "이미 출판된 논문을 고르고 원자료를 확보한 뒤, 원 논문의 표와 그림에 있는 수치 결과를 먼저 그대로 재현하는 데서 출발하라고 조언.",
-        "가능하면 최근 4-5년 안의 저명한 peer-reviewed 논문을 고르고, ICPSR나 저자 공개 replication archive 같은 곳에서 데이터와 코드를 찾아 출발점을 단단히 잡으라고 설명.",
-        "재현이 끝나면 기존 가정은 그대로 둔 채 predicted quantities, 그래프, simulation 요약처럼 결과 제시 방식을 개선해 원 논문이 충분히 보여주지 못한 함의를 드러내는 단계를 제안.",
-        "그 다음 missing data 처리, selection bias, omitted variable bias, model specification, functional form, control variable, 측정 개선, 시계열 확장, out-of-sample test, 더 나은 통계모형 중 하나를 최소한으로 바꿔 새 결론이 어디서 나오는지 분리해 보라고 권함."
+        "최근 4-5년 안의 저명한 peer-reviewed 논문을 고르고, ICPSR나 저자 공개 replication archive에서 데이터와 코드를 찾아 원 논문의 표와 그림 수치를 먼저 재현하라고 조언.",
+        "재현 뒤에는 기존 가정을 유지한 결과 제시 개선과, missing data 처리·selection bias·omitted variable bias·model specification·functional form 같은 최소한의 방법론 변경을 분리해 새 결론이 어디서 나오는지 보이라고 권함."
       ]
     },
     {
