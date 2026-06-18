@@ -1293,28 +1293,6 @@
       ]
     },
     {
-      "id": "e6401c0d06eb",
-      "authors": "Clément de Chaisemartin; Diego Ciccia; Xavier D'Haultfœuille; Felix Knau",
-      "year": "2024",
-      "title": "Two-way Fixed Effects and Differences-in-Differences Estimators in Heterogeneous Adoption Designs",
-      "venue": "arXiv",
-      "doi": "10.48550/arxiv.2405.04465",
-      "official_url": "https://arxiv.org/abs/2405.04465",
-      "category": "did-event-study",
-      "method_group": "이중차분법",
-      "tags": [
-        "이중차분",
-        "OLS"
-      ],
-      "note": "이질적 처치효과에서 익숙한 회귀식이 무엇을 추정하는지 확인.",
-      "summary": [
-        "어떤 단위도 완전히 untreated로 남지 않는 heterogeneous adoption design에서 DiD 추정이 가능한 조건과 대안을 제시.",
-        "quasi-untreated units를 cutoff 근처 control처럼 사용하고, RD 문헌의 bandwidth·bias-correction 아이디어를 DiD에 가져옴.",
-        "quasi-untreated group이 없으면 식별이 매우 약해지며, TWFE는 homogeneous effect 가정이 없으면 오해를 만들 수 있음.",
-        "전국정책처럼 모두가 조금씩 처치받지만 노출강도만 다른 상황에서 DiD를 쓸 수 있는지 판단할 때 참고."
-      ]
-    },
-    {
       "id": "03bd07ddee81",
       "authors": "Jonathan Roth",
       "year": "2024",
@@ -3712,27 +3690,6 @@
       ]
     },
     {
-      "id": "1f524cde54bd",
-      "authors": "Alberto Abadie",
-      "year": "2021",
-      "title": "Using Synthetic Controls",
-      "doi": "10.1257/jel.20191450",
-      "official_url": "https://doi.org/10.1257/jel.20191450",
-      "category": "synthetic-control",
-      "method_group": "합성통제",
-      "tags": [
-        "합성통제",
-        "OLS"
-      ],
-      "note": "합성통제, augmented synthetic control, synthetic DiD.",
-      "summary": [
-        "Abadie의 synthetic control 리뷰 항목으로, feasible SCM 연구의 조건과 실무 쟁점을 정리.",
-        "donor pool, pre-treatment fit, placebo test, data requirements, transparency를 강조.",
-        "같은 JEL 리뷰의 중복 항목이므로 목록에서는 표준 SCM 리뷰로 묶어 읽으면 된다.",
-        "SCM 입문/개관 문헌으로 참고."
-      ]
-    },
-    {
       "id": "623068e33a65",
       "authors": "Alberto Abadie; Jaume Vives-i-Bastida",
       "year": "2021",
@@ -4519,26 +4476,6 @@
       ]
     },
     {
-      "id": "69a57e3c8e57",
-      "authors": "Clément de Chaisemartin; Xavier d'Haultfoeuille",
-      "year": "2025",
-      "title": "Two-Way Fixed Effects and Differences-in-Differences with Heterogeneous Treatment Effects",
-      "doi": "10.2139/ssrn.4034184",
-      "official_url": "https://doi.org/10.2139/ssrn.4034184",
-      "category": "did-event-study",
-      "method_group": "이중차분법",
-      "tags": [
-        "이중차분",
-        "OLS"
-      ],
-      "note": "이질적 처치효과에서 익숙한 회귀식이 무엇을 추정하는지 확인.",
-      "summary": [
-        "heterogeneous treatment effects가 있는 TWFE/DiD 문제를 정리하고 robust estimator 계열을 비교.",
-        "문제는 단순히 음수 가중치 하나가 아니라 비교집단 선택, 동태효과, aggregation 목표가 함께 얽혀 있음.",
-        "기존 TWFE 논문을 재해석하거나 최신 DiD 추정기로 바꿀 때 체크리스트로 참고."
-      ]
-    },
-    {
       "id": "91315edfeddb",
       "authors": "Clément de Chaisemartin; Diego Ciccia; Xavier D'Haultfœuille; Felix Knau",
       "year": "2025",
@@ -4622,12 +4559,13 @@
       "year": "2015",
       "title": "Beyond metaphors: Standards, theory, and the where next for process tracing",
       "official_url": "https://doi.org/10.1017/CBO9781139858472",
-      "category": "general",
-      "method_group": "기타",
+      "category": "qualitative-case",
+      "method_group": "질적연구",
       "tags": [
-        "기타"
+        "질적연구",
+        "인과추론"
       ],
-      "note": "통계적 해석, 재현성, 계산도구, 연구관행처럼 여러 방법군을 가로지르는 문헌.",
+      "note": "사례내 인과추론에서 process tracing의 증거 기준과 대안설명 배제를 점검.",
       "summary": [
         "과정추적을 은유가 아니라 명시적 기준과 절차를 갖춘 사례내 인과추론 방법으로 정리.",
         "메커니즘 증거의 강도와 대안설명 배제를 분리해서 평가해야 함.",
@@ -5128,12 +5066,13 @@
       "year": "2015",
       "title": "Explaining the Cold War's end: Process tracing all the way down?",
       "official_url": "https://doi.org/10.1017/CBO9781139858472",
-      "category": "general",
-      "method_group": "기타",
+      "category": "qualitative-case",
+      "method_group": "질적연구",
       "tags": [
-        "기타"
+        "질적연구",
+        "과정추적"
       ],
-      "note": "통계적 해석, 재현성, 계산도구, 연구관행처럼 여러 방법군을 가로지르는 문헌.",
+      "note": "국제정치 사례에서 process tracing으로 사건 과정과 메커니즘을 설명하는 적용 사례.",
       "summary": [
         "냉전 종식 설명을 사례내 과정추적으로 검토하며 사건의 여러 층위와 메커니즘을 추적.",
         "단일 결정적 사건보다 단계적 과정, 행위자 판단, 구조적 조건을 함께 봐야 함.",
@@ -7454,23 +7393,6 @@
         "좋은 process tracing의 기준을 causal graph, event-history map, mechanism evidence, rival explanation 제거로 정리.",
         "몇 개의 단서가 아니라 전체 인과사슬이 충분히 이어지는지 보는 completeness standard가 핵심.",
         "비교정치 사례연구에서 과정추적 증거가 정말 인과설명으로 충분한지 평가할 때 참고."
-      ]
-    },
-    {
-      "id": "4188bc1ba01e",
-      "authors": "Wang et al",
-      "year": "2026",
-      "title": "Casual Inference",
-      "category": "general",
-      "method_group": "기타",
-      "tags": [
-        "기타"
-      ],
-      "note": "표준오차와 추론 방식이 결과 해석을 어떻게 바꾸는지 확인.",
-      "summary": [
-        "통계적 해석, 재현성, 계산도구, 연구관행처럼 여러 방법군을 가로지르는 쟁점.",
-        "적용 방법보다 어떤 연구관행이나 추론 기준을 비판하는지 먼저 확인해야 함.",
-        "방법론 선택 전후의 해석, 보고, 재현가능성 점검에 참고."
       ]
     },
     {
