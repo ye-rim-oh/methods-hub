@@ -3118,12 +3118,11 @@
       "tags": [
         "인과추론"
       ],
-      "note": "처치효과, 반사실, 좋은 통제변수와 나쁜 통제변수, 인과 설명.",
+      "note": "ordered probit과 nested logit 같은 이산선택모형에서 모형선택 대신 모형평균을 적용하는 통계 방법론 논문.",
       "summary": [
-        "ordered probit과 nested logit에서 단일 모형 선택 대신 model averaging으로 예측·추정을 안정화하는 접근.",
-        "여러 후보모형의 weight를 조합해 모형불확실성을 반영하고, ordered choice와 nested choice 응용을 제시.",
-        "ordered probit과 nested logit의 후보모형을 평균해 선택모형의 모형불확실성을 다루는 통계 방법론 문헌.",
-        "범주형/선택형 outcome에서 model uncertainty를 다룰 때 참고."
+        "논문 초록 기준, empirical research에서 널리 쓰이는 ordered probit과 nested logit 모형에 여러 model averaging 방법을 적용해 비교.",
+        "jackknife model averaging의 asymptotic optimality를 보이고, 대규모 simulation으로 model averaging estimator와 model selection estimator의 finite-sample 성능을 비교.",
+        "범주형·선택형 outcome에서 단일 모형 선택에 따른 불확실성을 줄이고 싶을 때 참고."
       ]
     },
     {
@@ -3282,11 +3281,10 @@
       "tags": [
         "수학/통계"
       ],
-      "note": "확률, 통계, 선형대수, 계량기초를 보강하는 배경 자료.",
+      "note": "자료 구조, 표본추출, 실험, 확률, 추론, 회귀를 한 흐름으로 복습하는 공개 통계 입문서.",
       "summary": [
-        "기술통계, 확률, 추정, 가설검정, 회귀의 기초를 공개 교재 형태로 설명하는 통계 입문서.",
-        "sampling, confidence interval, hypothesis test, linear regression, logistic regression의 계산과 해석을 단계적으로 다룸.",
-        "확률, 표본분포, 추정, 가설검정, 회귀의 기초를 정치학 방법론 리딩 전에 보강하는 통계 입문서.",
+        "원문 목차가 introduction to data, sampling principles, experiments에서 출발해 probability, random variables, confidence intervals, hypothesis tests로 이어짐.",
+        "categorical/numerical data inference 뒤에 simple/multiple regression, logistic regression, simulation과 bootstrap을 다뤄 방법론 리딩의 통계 언어를 보강.",
         "회귀·표준오차·p-value·CI를 읽기 전 기본 통계 언어를 복습할 때 참고."
       ]
     },
@@ -3302,11 +3300,10 @@
       "tags": [
         "연구설계"
       ],
-      "note": "정치학이 학문 분야로 형성된 과정을 보는 배경 문헌.",
+      "note": "정치학의 철학적·이론적·방법론적 발전을 고대 정치사상부터 현대 정치학까지 추적하는 분야사 장.",
       "summary": [
-        "정치학 분과의 역사와 주요 패러다임 변화를 정리해 방법론 논쟁을 학문사 속에 위치시킴.",
-        "behavioralism, institutionalism, comparative politics, rational choice, empirical science의 발전을 큰 흐름으로 설명.",
-        "정치학이 어떤 질문, 증거, 방법을 학문적으로 정당한 것으로 제도화해 왔는지 보여주는 분야사 배경문헌.",
+        "Oxford 초록 기준, 정치학의 역사를 ancient theorists에서 contemporary political scientists까지 개관하고 철학·이론·방법론적 기여를 함께 추적.",
+        "정치학 발전을 방법론적 분열만으로 보지 않고 pluralist interaction 속에서 형성된 학문 분야로 설명.",
         "방법론 논쟁을 정치학 분과사와 연결해 설명할 때 참고."
       ]
     },
@@ -4514,11 +4511,10 @@
       "tags": [
         "실험"
       ],
-      "note": "무작위배정, 현장실험, 컨조인트, 실험 설계와 외적타당도.",
+      "note": "natural experiment에서 DiD를 설계·가정·추정량 선택까지 단계적으로 정리하는 진행 중인 교재형 원고.",
       "summary": [
-        "자연실험형 DiD를 classical design부터 staggered adoption, event-study, non-linear DID, IV-DID까지 교과서식으로 정리하는 원고.",
-        "group-level panel data, potential outcomes, parallel trends, TWFE 한계, 대안 event-study estimator를 단계적으로 설명.",
-        "natural experiment 맥락에서 DiD의 비교집단 선택, 동태효과, aggregation 목표를 함께 정리하는 설계 중심 문헌.",
+        "원문 목차가 classical DID design, alternatives to parallel trends, TWFE outside the classical design, treatment timing variation, dose variation, general designs로 구성됨.",
+        "potential outcomes와 target parameter에서 출발해 parallel trends, staggered adoption, event-study, non-linear DID, IV-DID까지 DiD 설계를 확장.",
         "정책변화·제도변화를 quasi-experiment로 분석할 때 DiD notation과 최신 추정기 선택을 정리할 때 참고."
       ]
     },
@@ -4863,11 +4859,10 @@
       "tags": [
         "질적연구"
       ],
-      "note": "사례 선택, 과정추적, 비교역사분석, 인터뷰 연구.",
+      "note": "라틴아메리카 8개국의 노동편입 critical juncture와 장기 정권동학을 paired comparison으로 추적한 비교역사분석 고전.",
       "summary": [
-        "라틴아메리카 노동운동과 정권동학을 통해 critical juncture 접근이 어떻게 substantive comparative politics에 적용되는지 보여줌.",
-        "노동동원, 정당체제, 국가-사회 관계의 역사적 순서를 비교하며 장기 제도효과를 추적.",
-        "critical juncture 개념을 라틴아메리카 노동운동과 체제동학 사례에 적용해 비교역사분석의 이론검증 방식을 보여줌.",
+        "원문은 Brazil/Chile, Mexico/Venezuela, Uruguay/Colombia, Argentina/Peru 등 장기 도시·상공업 발전을 가진 8개국을 disciplined paired comparison으로 비교.",
+        "노동운동과 국가의 관계가 형성된 historical moment를 critical juncture로 보고, 이후 정당체계와 정권동학에 남긴 legacy를 추적.",
         "path dependence나 labor incorporation 논의를 사례분석으로 구현하는 방식을 볼 때 참고."
       ]
     },
@@ -5276,12 +5271,11 @@
       "tags": [
         "수학/통계"
       ],
-      "note": "확률, 통계, 선형대수, 계량기초를 보강하는 배경 자료.",
+      "note": "사회통계학을 읽기 위한 행렬, 선형대수, 미적분, 확률, 통계이론, 선형회귀 수학을 압축한 primer.",
       "summary": [
-        "사회통계학을 읽기 위한 수학 기초를 정리한 primer.",
-        "집합, 함수, 행렬, 미분, 확률, 최적화 등 회귀와 일반화선형모형 이해에 필요한 수학을 다룸.",
-        "확률, 선형대수, 미적분 같은 수학 배경을 사회통계와 회귀·모형화의 직관으로 연결하는 기초 보강서.",
-        "통계교재의 수식 전개가 막힐 때 기초 수학을 복습할 때 참고."
+        "원문 목차가 matrices and vector geometry, matrix decompositions, calculus, probability theory, probability distributions, statistical theory, linear least-squares regression으로 구성됨.",
+        "Sage 메타데이터도 matrices, equations, derivative, parameters, density, population, calculus를 핵심 키워드로 제시.",
+        "통계교재의 수식 전개나 회귀모형의 선형대수 표현이 막힐 때 기초 수학을 복습할 때 참고."
       ]
     },
     {
@@ -5356,10 +5350,10 @@
       "tags": [
         "기타"
       ],
-      "note": "통계적 해석, 재현성, 계산도구, 연구관행처럼 여러 방법군을 가로지르는 문헌.",
+      "note": "게임이론과 정보 개념을 정치학 연구에 적용하는 분석적 관점의 입문서.",
       "summary": [
-        "정치학에서 게임이론과 정보의 역할을 선거, 협상, 제도 분석으로 연결하는 교재.",
-        "게임이론의 행위자, 정보, 전략, 균형 개념을 정치현상 설명에 적용하는 형식모형 입문서.",
+        "원문은 Analytical Perspectives on Politics 시리즈의 하나로, 정치학 주요 연구영역의 state of the art와 향후 연구 구조를 압축적으로 제시하는 책으로 소개됨.",
+        "정치학에서 game theoretic models를 적용하기 위해 행위자, 정보, 전략적 상호작용, 균형의 기본 언어를 정치 사례와 연결.",
         "전략적 상호작용, 정보비대칭, 정치제도 모델을 읽을 때 참고."
       ]
     },
@@ -5752,11 +5746,10 @@
       "tags": [
         "실험"
       ],
-      "note": "무작위배정, 현장실험, 컨조인트, 실험 설계와 외적타당도.",
+      "note": "실험정치학이 주요 방법으로 자리 잡은 뒤의 설계, 자료, 측정, 통계, 윤리, 일반화 쟁점을 종합한 편저.",
       "summary": [
-        "실험정치학이 주변적 방법에서 주요 방법으로 자리 잡은 뒤, 설계·자료·측정·분석·윤리·일반화 쟁점을 종합한 편저.",
-        "conjoint, audit study, field experiment, natural experiment, social media data, mediation, subgroup analysis, spillover, transparency를 폭넓게 다룸.",
-        "실험정치학의 설계, 현장실험, 설문실험, 윤리, 외적타당도 논의를 장별로 정리한 reference volume.",
+        "원문 소개는 실험정치학이 emergent method에서 accepted method, primary method로 발전했다고 설명하고, sound design과 cause-effect 해석을 핵심 과제로 제시.",
+        "새로운 설계, novel data sources, measurement approaches, statistical methods, substantive domains, robustness, generalizability, ethics를 폭넓게 다룸.",
         "정치학 실험연구를 처음 설계하거나 특정 설계 문제를 빠르게 찾아볼 때 기본 지도 역할."
       ]
     },
@@ -6382,12 +6375,11 @@
       "tags": [
         "베이지안"
       ],
-      "note": "베이지안 추론, 계층모형, ordinal model, Bayesian process tracing.",
+      "note": "잘못된 prior 문제를 피하면서 iid 가정만으로 예측 신뢰정보를 제공하려는 typicalness framework 논문.",
       "summary": [
-        "typicalness framework를 Bayesian approach와 비교해, 예측·분류에서 전형성과 확률적 믿음의 차이를 논의.",
-        "algorithmic learning 관점에서 typicalness measure와 Bayesian updating의 장단점을 비교.",
-        "typicalness와 conformal/algorithmic inference 관점을 Bayesian 접근과 비교해 예측 불확실성 해석을 보강하는 문헌.",
-        "Bayesian inference와 비베이지안 불확실성 프레임을 비교할 때 참고."
+        "원문 abstract는 correct prior가 있으면 Bayesian algorithm이 optimal decision과 confidence value를 주지만, prior가 틀리면 confidence value의 이론적 근거가 약해진다고 출발.",
+        "typicalness framework는 여러 machine learning algorithm과 결합해 standard iid assumption만으로 confidence information을 제공하고, 분포가 달라져도 더 robust하다고 설명.",
+        "Bayesian confidence와 비베이지안 uncertainty calibration을 비교할 때 참고."
       ]
     },
     {
@@ -6757,11 +6749,10 @@
       "tags": [
         "텍스트/AI"
       ],
-      "note": "텍스트 분석, 머신러닝, 주제모형, stance/sentiment, LLM, supervised measurement.",
+      "note": "AI가 민주주의, 정보환경, 여론, 공공부문, 불평등, 국제안보, 정치학 연구방법에 미치는 변화를 묶은 APSA 태스크포스 편저.",
       "summary": [
-        "AI가 선거, 여론, 공공부문, 불평등, 국제정치, 정치이론, 연구방법, 교육을 어떻게 바꾸는지 정치학 관점에서 묶은 편저.",
-        "특히 연구방법 장은 LLM을 텍스트·설문조사·시뮬레이션·정보추출에 쓸 때의 측정, 검증, 재현성 문제를 다룸.",
-        "AI가 정치, 선거, 거버넌스, 정치학 연구방법에 미치는 변화를 장별로 정리하는 빠르게 변하는 연구지형의 지도.",
+        "원문 목차는 AI and democracy, online information ecosystem, public opinion, public sector and policymaking, race, gender, economy, geopolitics and national security를 포함.",
+        "연구방법 관련 장들은 LLM을 텍스트, 설문조사, 시뮬레이션, 정보추출에 활용할 때 측정, 검증, 재현성 문제가 함께 생긴다는 점을 다룸.",
         "정치학에서 AI를 연구대상으로 볼지, 연구도구로 볼지, 혹은 교육·윤리 문제로 볼지 정리할 때 참고."
       ]
     },
