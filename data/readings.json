@@ -3120,8 +3120,8 @@
       ],
       "note": "ordered probit과 nested logit 같은 이산선택모형에서 모형선택 대신 모형평균을 적용하는 통계 방법론 논문.",
       "summary": [
-        "논문 초록 기준, empirical research에서 널리 쓰이는 ordered probit과 nested logit 모형에 여러 model averaging 방법을 적용해 비교.",
-        "jackknife model averaging의 asymptotic optimality를 보이고, 대규모 simulation으로 model averaging estimator와 model selection estimator의 finite-sample 성능을 비교.",
+        "경험연구에서 자주 쓰이는 ordered probit과 nested logit 모형에 여러 model averaging 방법을 적용해 단일 모형 선택의 불확실성을 줄이는 접근.",
+        "jackknife model averaging의 점근적 성질을 보이고, 대규모 simulation으로 model averaging과 model selection 추정량의 유한표본 성능을 비교.",
         "범주형·선택형 outcome에서 단일 모형 선택에 따른 불확실성을 줄이고 싶을 때 참고."
       ]
     },
@@ -3283,8 +3283,8 @@
       ],
       "note": "자료 구조, 표본추출, 실험, 확률, 추론, 회귀를 한 흐름으로 복습하는 공개 통계 입문서.",
       "summary": [
-        "원문 목차가 introduction to data, sampling principles, experiments에서 출발해 probability, random variables, confidence intervals, hypothesis tests로 이어짐.",
-        "categorical/numerical data inference 뒤에 simple/multiple regression, logistic regression, simulation과 bootstrap을 다뤄 방법론 리딩의 통계 언어를 보강.",
+        "자료의 형태와 표본추출 원리, 실험 설계에서 출발해 확률, 확률변수, 신뢰구간, 가설검정으로 이어지는 통계 입문 흐름을 제공.",
+        "범주형·수치형 자료의 추론을 다룬 뒤 단순회귀, 다중회귀, 로지스틱 회귀, simulation과 bootstrap까지 연결해 방법론 리딩의 통계 언어를 보강.",
         "회귀·표준오차·p-value·CI를 읽기 전 기본 통계 언어를 복습할 때 참고."
       ]
     },
@@ -3302,8 +3302,8 @@
       ],
       "note": "정치학의 철학적·이론적·방법론적 발전을 고대 정치사상부터 현대 정치학까지 추적하는 분야사 장.",
       "summary": [
-        "Oxford 초록 기준, 정치학의 역사를 ancient theorists에서 contemporary political scientists까지 개관하고 철학·이론·방법론적 기여를 함께 추적.",
-        "정치학 발전을 방법론적 분열만으로 보지 않고 pluralist interaction 속에서 형성된 학문 분야로 설명.",
+        "정치학의 역사를 고대 정치사상부터 현대 정치학까지 훑으며 철학적, 이론적, 방법론적 기여가 어떻게 누적되었는지 정리.",
+        "정치학 발전을 방법론적 분열의 역사로만 보지 않고 여러 접근법이 상호작용하며 형성된 pluralist discipline으로 설명.",
         "방법론 논쟁을 정치학 분과사와 연결해 설명할 때 참고."
       ]
     },
@@ -4513,8 +4513,8 @@
       ],
       "note": "natural experiment에서 DiD를 설계·가정·추정량 선택까지 단계적으로 정리하는 진행 중인 교재형 원고.",
       "summary": [
-        "원문 목차가 classical DID design, alternatives to parallel trends, TWFE outside the classical design, treatment timing variation, dose variation, general designs로 구성됨.",
-        "potential outcomes와 target parameter에서 출발해 parallel trends, staggered adoption, event-study, non-linear DID, IV-DID까지 DiD 설계를 확장.",
+        "고전적 DiD 설계에서 시작해 parallel trends 대안, TWFE 한계, 처치시점 변화, 처치강도 변화, 일반화된 DiD 설계까지 단계적으로 정리.",
+        "potential outcomes와 target parameter를 먼저 세운 뒤 staggered adoption, event-study, non-linear DID, IV-DID까지 DiD 설계를 확장.",
         "정책변화·제도변화를 quasi-experiment로 분석할 때 DiD notation과 최신 추정기 선택을 정리할 때 참고."
       ]
     },
@@ -4861,8 +4861,8 @@
       ],
       "note": "라틴아메리카 8개국의 노동편입 critical juncture와 장기 정권동학을 paired comparison으로 추적한 비교역사분석 고전.",
       "summary": [
-        "원문은 Brazil/Chile, Mexico/Venezuela, Uruguay/Colombia, Argentina/Peru 등 장기 도시·상공업 발전을 가진 8개국을 disciplined paired comparison으로 비교.",
-        "노동운동과 국가의 관계가 형성된 historical moment를 critical juncture로 보고, 이후 정당체계와 정권동학에 남긴 legacy를 추적.",
+        "브라질·칠레, 멕시코·베네수엘라, 우루과이·콜롬비아, 아르헨티나·페루를 짝지어 비교하며 라틴아메리카 노동편입의 장기 효과를 추적.",
+        "노동운동과 국가의 관계가 형성된 역사적 전환점을 critical juncture로 보고, 이후 정당체계와 정권동학에 남긴 legacy를 분석.",
         "path dependence나 labor incorporation 논의를 사례분석으로 구현하는 방식을 볼 때 참고."
       ]
     },
@@ -5273,8 +5273,8 @@
       ],
       "note": "사회통계학을 읽기 위한 행렬, 선형대수, 미적분, 확률, 통계이론, 선형회귀 수학을 압축한 primer.",
       "summary": [
-        "원문 목차가 matrices and vector geometry, matrix decompositions, calculus, probability theory, probability distributions, statistical theory, linear least-squares regression으로 구성됨.",
-        "Sage 메타데이터도 matrices, equations, derivative, parameters, density, population, calculus를 핵심 키워드로 제시.",
+        "행렬과 벡터기하, 행렬분해, 미적분, 확률이론, 확률분포, 통계이론, 선형 최소제곱 회귀를 사회통계학 독해에 필요한 순서로 압축.",
+        "회귀식의 행렬 표현, 확률밀도와 모수, 미분과 최적화처럼 통계교재에서 자주 막히는 수학 언어를 보강.",
         "통계교재의 수식 전개나 회귀모형의 선형대수 표현이 막힐 때 기초 수학을 복습할 때 참고."
       ]
     },
@@ -5352,8 +5352,8 @@
       ],
       "note": "게임이론과 정보 개념을 정치학 연구에 적용하는 분석적 관점의 입문서.",
       "summary": [
-        "원문은 Analytical Perspectives on Politics 시리즈의 하나로, 정치학 주요 연구영역의 state of the art와 향후 연구 구조를 압축적으로 제시하는 책으로 소개됨.",
-        "정치학에서 game theoretic models를 적용하기 위해 행위자, 정보, 전략적 상호작용, 균형의 기본 언어를 정치 사례와 연결.",
+        "정치학 주요 연구영역을 분석적으로 정리하는 시리즈의 책으로, 게임이론을 정치현상 설명에 적용하는 기본 틀을 제시.",
+        "행위자, 정보, 전략적 상호작용, 균형 개념을 선거, 협상, 제도 분석 같은 정치학 문제와 연결.",
         "전략적 상호작용, 정보비대칭, 정치제도 모델을 읽을 때 참고."
       ]
     },
@@ -5748,8 +5748,8 @@
       ],
       "note": "실험정치학이 주요 방법으로 자리 잡은 뒤의 설계, 자료, 측정, 통계, 윤리, 일반화 쟁점을 종합한 편저.",
       "summary": [
-        "원문 소개는 실험정치학이 emergent method에서 accepted method, primary method로 발전했다고 설명하고, sound design과 cause-effect 해석을 핵심 과제로 제시.",
-        "새로운 설계, novel data sources, measurement approaches, statistical methods, substantive domains, robustness, generalizability, ethics를 폭넓게 다룸.",
+        "실험정치학이 주변적 방법에서 주요 방법으로 자리 잡은 뒤, 좋은 설계와 인과효과 해석을 어떻게 확보할지 정리한 편저.",
+        "새로운 실험 설계, 자료원, 측정 방식, 통계 방법, 적용 분야, robustness, generalizability, ethics를 폭넓게 다룸.",
         "정치학 실험연구를 처음 설계하거나 특정 설계 문제를 빠르게 찾아볼 때 기본 지도 역할."
       ]
     },
@@ -6377,8 +6377,8 @@
       ],
       "note": "잘못된 prior 문제를 피하면서 iid 가정만으로 예측 신뢰정보를 제공하려는 typicalness framework 논문.",
       "summary": [
-        "원문 abstract는 correct prior가 있으면 Bayesian algorithm이 optimal decision과 confidence value를 주지만, prior가 틀리면 confidence value의 이론적 근거가 약해진다고 출발.",
-        "typicalness framework는 여러 machine learning algorithm과 결합해 standard iid assumption만으로 confidence information을 제공하고, 분포가 달라져도 더 robust하다고 설명.",
+        "Bayesian 방법은 올바른 prior가 있을 때 예측 신뢰값을 줄 수 있지만, prior가 틀리면 그 신뢰값의 이론적 근거가 약해진다는 문제에서 출발.",
+        "typicalness framework는 여러 machine learning 알고리즘과 결합해 iid 가정만으로 예측 confidence information을 제공하고 분포 변화에 더 견고한 대안을 제시.",
         "Bayesian confidence와 비베이지안 uncertainty calibration을 비교할 때 참고."
       ]
     },
@@ -6751,8 +6751,8 @@
       ],
       "note": "AI가 민주주의, 정보환경, 여론, 공공부문, 불평등, 국제안보, 정치학 연구방법에 미치는 변화를 묶은 APSA 태스크포스 편저.",
       "summary": [
-        "원문 목차는 AI and democracy, online information ecosystem, public opinion, public sector and policymaking, race, gender, economy, geopolitics and national security를 포함.",
-        "연구방법 관련 장들은 LLM을 텍스트, 설문조사, 시뮬레이션, 정보추출에 활용할 때 측정, 검증, 재현성 문제가 함께 생긴다는 점을 다룸.",
+        "AI가 민주주의, 온라인 정보환경, 여론, 공공부문, 인종·젠더 정치, 경제, 국제안보에 미치는 효과를 정치학 관점에서 묶어 정리.",
+        "정치학 연구방법 측면에서는 LLM을 텍스트, 설문조사, 시뮬레이션, 정보추출에 활용할 때 생기는 측정, 검증, 재현성 문제를 다룸.",
         "정치학에서 AI를 연구대상으로 볼지, 연구도구로 볼지, 혹은 교육·윤리 문제로 볼지 정리할 때 참고."
       ]
     },
