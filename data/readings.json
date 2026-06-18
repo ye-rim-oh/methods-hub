@@ -3122,7 +3122,7 @@
       "summary": [
         "ordered probit과 nested logit에서 단일 모형 선택 대신 model averaging으로 예측·추정을 안정화하는 접근.",
         "여러 후보모형의 weight를 조합해 모형불확실성을 반영하고, ordered choice와 nested choice 응용을 제시.",
-        "선택모형 문헌이지 표준 처치효과 문헌은 아니므로, causal interpretation은 별도 식별가정이 필요하다.",
+        "ordered probit과 nested logit의 후보모형을 평균해 선택모형의 모형불확실성을 다루는 통계 방법론 문헌.",
         "범주형/선택형 outcome에서 model uncertainty를 다룰 때 참고."
       ]
     },
@@ -3286,7 +3286,7 @@
       "summary": [
         "기술통계, 확률, 추정, 가설검정, 회귀의 기초를 공개 교재 형태로 설명하는 통계 입문서.",
         "sampling, confidence interval, hypothesis test, linear regression, logistic regression의 계산과 해석을 단계적으로 다룸.",
-        "정치학 특화 방법론은 아니므로 substantive design 논의와 별도로 통계 기초 보강용으로 읽는 것이 적절하다.",
+        "확률, 표본분포, 추정, 가설검정, 회귀의 기초를 정치학 방법론 리딩 전에 보강하는 통계 입문서.",
         "회귀·표준오차·p-value·CI를 읽기 전 기본 통계 언어를 복습할 때 참고."
       ]
     },
@@ -3306,7 +3306,7 @@
       "summary": [
         "정치학 분과의 역사와 주요 패러다임 변화를 정리해 방법론 논쟁을 학문사 속에 위치시킴.",
         "behavioralism, institutionalism, comparative politics, rational choice, empirical science의 발전을 큰 흐름으로 설명.",
-        "특정 추정법 매뉴얼이 아니라 정치학이 어떤 질문과 방법을 정당한 것으로 보아왔는지 보여주는 배경문헌이다.",
+        "정치학이 어떤 질문, 증거, 방법을 학문적으로 정당한 것으로 제도화해 왔는지 보여주는 분야사 배경문헌.",
         "방법론 논쟁을 정치학 분과사와 연결해 설명할 때 참고."
       ]
     },
@@ -3368,7 +3368,7 @@
       "summary": [
         "비교정치 연구에서 이론구축, 사례선택, selection bias, 연구설계가 어떻게 연결되는지 설명하는 방법론 고전.",
         "정치체제와 비교정치 사례를 다루면서 왜 가설, 사례, 측정, 대안설명이 함께 설계되어야 하는지 보여줌.",
-        "비교정치 논문에서 사례선택과 이론검증 논리를 점검할 때 참고."
+        "비교정치에서 이론구축과 사례선택이 selection bias, 측정, 대안설명 검토와 어떻게 맞물리는지 보여주는 연구설계 고전."
       ]
     },
     {
@@ -4518,7 +4518,7 @@
       "summary": [
         "자연실험형 DiD를 classical design부터 staggered adoption, event-study, non-linear DID, IV-DID까지 교과서식으로 정리하는 원고.",
         "group-level panel data, potential outcomes, parallel trends, TWFE 한계, 대안 event-study estimator를 단계적으로 설명.",
-        "제목은 natural experiments지만 실험논문이 아니라 DiD 설계 교재에 가까우므로, 실험 카테고리보다 DiD 참고문헌으로 읽는 것이 적절함.",
+        "natural experiment 맥락에서 DiD의 비교집단 선택, 동태효과, aggregation 목표를 함께 정리하는 설계 중심 문헌.",
         "정책변화·제도변화를 quasi-experiment로 분석할 때 DiD notation과 최신 추정기 선택을 정리할 때 참고."
       ]
     },
@@ -4867,7 +4867,7 @@
       "summary": [
         "라틴아메리카 노동운동과 정권동학을 통해 critical juncture 접근이 어떻게 substantive comparative politics에 적용되는지 보여줌.",
         "노동동원, 정당체제, 국가-사회 관계의 역사적 순서를 비교하며 장기 제도효과를 추적.",
-        "이 항목은 방법론 논문이라기보다 critical juncture 분석을 적용한 비교역사 연구로 읽는 것이 적절하다.",
+        "critical juncture 개념을 라틴아메리카 노동운동과 체제동학 사례에 적용해 비교역사분석의 이론검증 방식을 보여줌.",
         "path dependence나 labor incorporation 논의를 사례분석으로 구현하는 방식을 볼 때 참고."
       ]
     },
@@ -5280,7 +5280,7 @@
       "summary": [
         "사회통계학을 읽기 위한 수학 기초를 정리한 primer.",
         "집합, 함수, 행렬, 미분, 확률, 최적화 등 회귀와 일반화선형모형 이해에 필요한 수학을 다룸.",
-        "방법론 논문이 아니라 수학 배경서이므로, 분석기법의 직관을 보강하는 용도다.",
+        "확률, 선형대수, 미적분 같은 수학 배경을 사회통계와 회귀·모형화의 직관으로 연결하는 기초 보강서.",
         "통계교재의 수식 전개가 막힐 때 기초 수학을 복습할 때 참고."
       ]
     },
@@ -5359,7 +5359,7 @@
       "note": "통계적 해석, 재현성, 계산도구, 연구관행처럼 여러 방법군을 가로지르는 문헌.",
       "summary": [
         "정치학에서 게임이론과 정보의 역할을 선거, 협상, 제도 분석으로 연결하는 교재.",
-        "경험분석 문헌이 아니라 형식모형의 가정과 균형 개념을 이해하는 데 초점.",
+        "게임이론의 행위자, 정보, 전략, 균형 개념을 정치현상 설명에 적용하는 형식모형 입문서.",
         "전략적 상호작용, 정보비대칭, 정치제도 모델을 읽을 때 참고."
       ]
     },
@@ -5756,7 +5756,7 @@
       "summary": [
         "실험정치학이 주변적 방법에서 주요 방법으로 자리 잡은 뒤, 설계·자료·측정·분석·윤리·일반화 쟁점을 종합한 편저.",
         "conjoint, audit study, field experiment, natural experiment, social media data, mediation, subgroup analysis, spillover, transparency를 폭넓게 다룸.",
-        "단일 주장 논문이 아니라 여러 장의 방법론 안내서이므로, 필요한 장을 골라 읽는 reference volume으로 쓰는 것이 적절함.",
+        "실험정치학의 설계, 현장실험, 설문실험, 윤리, 외적타당도 논의를 장별로 정리한 reference volume.",
         "정치학 실험연구를 처음 설계하거나 특정 설계 문제를 빠르게 찾아볼 때 기본 지도 역할."
       ]
     },
@@ -6386,7 +6386,7 @@
       "summary": [
         "typicalness framework를 Bayesian approach와 비교해, 예측·분류에서 전형성과 확률적 믿음의 차이를 논의.",
         "algorithmic learning 관점에서 typicalness measure와 Bayesian updating의 장단점을 비교.",
-        "정치방법론 핵심문헌이라기보다 conformal/algorithmic inference 계열의 보조문헌으로 읽는 것이 맞다.",
+        "typicalness와 conformal/algorithmic inference 관점을 Bayesian 접근과 비교해 예측 불확실성 해석을 보강하는 문헌.",
         "Bayesian inference와 비베이지안 불확실성 프레임을 비교할 때 참고."
       ]
     },
@@ -6761,7 +6761,7 @@
       "summary": [
         "AI가 선거, 여론, 공공부문, 불평등, 국제정치, 정치이론, 연구방법, 교육을 어떻게 바꾸는지 정치학 관점에서 묶은 편저.",
         "특히 연구방법 장은 LLM을 텍스트·설문조사·시뮬레이션·정보추출에 쓸 때의 측정, 검증, 재현성 문제를 다룸.",
-        "특정 추정법 매뉴얼이 아니라 빠르게 변하는 AI 연구지형의 지도에 가깝기 때문에 세부 분석에는 각 장의 개별 문헌을 따라가야 함.",
+        "AI가 정치, 선거, 거버넌스, 정치학 연구방법에 미치는 변화를 장별로 정리하는 빠르게 변하는 연구지형의 지도.",
         "정치학에서 AI를 연구대상으로 볼지, 연구도구로 볼지, 혹은 교육·윤리 문제로 볼지 정리할 때 참고."
       ]
     },
