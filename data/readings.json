@@ -7654,12 +7654,12 @@
       "year": "2000",
       "title": "계량경제학 이론과 실습",
       "official_url": "https://www.kmooc.kr/view/course/detail/3044",
-      "category": "math-stat",
-      "method_group": "수학/통계",
+      "category": "foundations",
+      "method_group": "기본서",
       "tags": [
-        "수학/통계"
+        "기본서"
       ],
-      "note": "확률, 통계, 선형대수, 계량기초를 보강하는 배경 자료.",
+      "note": "방법론 전체의 언어와 큰 지도를 잡는 교재·핸드북.",
       "summary": [
         "한국어 계량경제학 교재/강의 자료로, 회귀분석과 기본 계량모형의 이론·실습을 다룸.",
         "OLS, 가설검정, 진단, 응용회귀 등 계량경제학 입문 내용을 한국어로 학습할 수 있게 구성.",
@@ -7691,7 +7691,7 @@
       "authors": "박종희",
       "year": "2014",
       "title": "베이지안 사회과학 방법론이란 무엇인가",
-      "official_url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02408987",
+      "official_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001874737",
       "category": "bayesian-models",
       "method_group": "베이지안",
       "tags": [
