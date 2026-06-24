@@ -4405,12 +4405,12 @@
       "title": "Dynamic Synthetic Controls: Accounting for Varying Speeds in Comparative Case Studies",
       "doi": "10.1017/pan.2024.14",
       "official_url": "https://doi.org/10.1017/pan.2024.14",
-      "category": "qualitative-case",
-      "method_group": "질적연구",
+      "category": "synthetic-control",
+      "method_group": "합성통제",
       "tags": [
-        "질적연구"
+        "합성통제"
       ],
-      "note": "사례 선택, 과정추적, 비교역사분석, 인터뷰 연구.",
+      "note": "dynamic time warping으로 합성통제의 시간 정렬 문제를 보정하는 방법론 논문.",
       "summary": [
         "synthetic control이 단위별 반응속도 차이를 무시하면 counterfactual match와 효과추정이 왜곡될 수 있음을 보임.",
         "공통 shock에 대한 빠른/느린 반응을 treatment effect로 착각하지 않도록 dynamic time warping식 보정이 필요할 수 있음.",
