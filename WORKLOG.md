@@ -5,3 +5,6 @@
 
 ## 2026-06-24 22:03 +09:00 - Dynamic Synthetic Controls 분류 수정
 - Reclassified Cao and Chadefaux 2024 Dynamic Synthetic Controls from 질적연구 to 합성통제 in data/readings.json and docs/index.html; kept the tag as 합성통제 and updated the note to emphasize dynamic time warping/time alignment.
+
+## 2026-06-25 00:00 +09:00 - GoatCounter analytics
+- Added the GoatCounter tracking script to docs/index.html, mirrored it in the local ignored scripts/build_catalog.py generator, documented that the site renders no visible visitor counter, and kept owner exclusion browser-local through #toggle-goatcounter rather than hard-coding an IP.
